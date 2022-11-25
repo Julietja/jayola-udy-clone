@@ -1,0 +1,348 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+ box-sizing: border-box;
+ width: 100%;
+ padding: 5px;
+ overflow-x: hidden;
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px;
+}
+
+input[type=search]{
+ width: 500px;
+ border-radius: 30px;
+ border: 1px solid black;
+ padding: 15px;
+ background-color: #F5F5F5;
+}
+
+.links{
+ display: flex;
+ justify-content: space-between;
+ margin-right: 1px;
+}
+
+.dropbtn{
+ padding: 16px;
+}
+
+.dropdown{
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content{
+ display: none;
+ position: absolute;
+ min-width: 300px;
+ background-color: white;
+ border: 1px solid rgb(226, 225, 225);
+ margin-top: 30px;
+ padding: 20px;
+ z-index: 1;
+}
+
+.dropdown-content a{
+ color: black;
+ text-decoration: none;
+ display: block;
+ padding: 12px 16px;
+}
+
+.dropdown-content span{
+display: inline-block;
+}
+.dropdown-content span a{
+ min-width: 230px;
+ padding: 10px;
+}
+.dropdown-content span img{
+ width: 20px;
+}
+
+.dropdown-content a:hover{
+ color: #824bda;
+}
+
+.dropdown:hover .dropdown-content{
+ display: block;
+}
+
+.dropdown:hover .dropbtn{
+ background-color: transparent;
+}
+.dropdown-content .text{
+ text-align: center;
+}
+.dropdown-content .butn{
+ background-color: #000000;
+ color: white;
+ font-size: 1rem;
+ font-weight: 700;
+ width: 100%;
+ margin-top: 20px;
+}
+
+
+header a{
+ text-decoration: none;
+ color: black;
+}
+
+.hover a:hover{
+color: #824bda;
+}
+
+.header-right{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ gap: 10px;
+}
+.butn{
+ padding: 12px 18px;
+ border: 1px solid black;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+
+#signup{
+ background-color: #000000;
+ color: white;
+}
+#login{
+ background-color: white;
+}
+#login:hover, #globe:hover{
+ background-color: #F5F5F5;
+}
+
+#globe{
+ padding: 6px 8px;
+}
+
+/* design for black friday advert*/
+.advert{
+ padding: 20px;
+ background-color: white;
+ width: 400px;
+ position: absolute;
+ top: 130px;
+ left: 80px;
+
+}
+
+.course-cards{
+ padding: 40px 20px;
+}
+.title{
+ font-size: 2.5rem;
+ font-weight: 600;
+ margin-bottom: 15px;
+}
+.paragraph{
+ font-size: 1.3rem;
+ margin: 10px 0;
+ margin-bottom: 15px;
+}
+.course-section{
+ width: 700px;
+display: flex;
+justify-content: space-between;
+}
+.course-cards a:active, a:hover {
+ color: black;
+}
+
+.course-links{
+ text-decoration: none;
+ font-size: 1.1rem;
+ font-weight: 700;
+ color: rgb(121, 119, 119);
+}
+
+.course-card-container{
+ border: 1px solid rgb(216, 209, 209);
+ padding: 30px;
+ margin: 20px 0;
+}
+
+.card{
+ display: flex;
+ flex-direction: row;
+ overflow: hidden;
+}
+
+.card-title{
+ margin-bottom: 15px;
+ font-size: 1.8rem;
+}
+
+.card-paragraph{
+ margin-bottom: 15px;
+ font-size: 1.1rem;
+ width: 65%;
+ color: rgb(80, 80, 80);
+}
+
+.course-card-container .butn{
+ background: transparent;
+ font-weight: 700;
+ margin-bottom: 40px;
+}
+
+.topics{
+ background-color: #F7F9FA;
+ border: none;
+ padding: 40px 20px 60px 20px;
+}
+
+.topics .columns{
+ display: flex;
+}
+
+.first-column, .second-column, .third-column, .fourth-column{
+ width: 300px;
+ margin-right: 20px;
+ padding-right: 10px;
+}
+
+.topics h3{
+ margin: 20px 0;
+ font-size: 1.5rem;
+}
+
+.columns .caption{
+ margin: 20px 0;
+ font-size: 1.2rem;
+}
+
+.columns .blue{
+ text-decoration: underline;
+ color: #5b19c5;
+ 
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.columns p{
+ color: #858585;
+ font-size: medium;
+ margin-bottom: 20px;
+ margin-top: 10px;
+}
+
+.topics .butn{
+ font-weight: 700;
+}
+
+.middle{
+ display: flex;
+ align-items: center;
+ padding: 40px 170px;
+}
+
+.center-img{
+ width: 500px;
+ height: 450px;
+ margin-right: 60px;
+}
+
+.middle .text{
+ font-size: 1rem;
+}
+
+.middle .text .paragraph{
+ color: rgb(46, 45, 45);
+}
+.middle .text .butn{
+ background-color: #242424;
+ color: white;
+ font-size: 1rem;
+ font-weight: 600;
+}
+
+.clients{
+ background-color: #F7F9FA;
+ padding: 30px 40px;
+ text-align: center;
+}
+.clients .row{
+ display: flex;
+ justify-content: space-between;
+}
+
+.clients .title{
+ font-size: 1.7rem;
+}
+.clients .paragraph{
+ font-size: 20px;
+ margin-bottom: 40px;
+}
+
+.middle #udemy-logo{
+ width: 220px;
+ height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ background: black;
+ padding: 60px 300px 60px 200px;
+}
+
+.footer-sections{
+ display: flex;
+ justify-content: space-between;
+ padding: 0 20px;
+}
+
+.footer-header a h3{
+padding-left: 30px;
+font-size: medium;
+font-weight: 400;
+}
+
+footer .segments
+{
+ height: auto;
+ padding: 10px 10px;
+ margin-bottom: 20px;
+}
+
+footer .segments a {
+ display: block;
+ color: white;
+ margin-top: 20px;
+ text-decoration: none;
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.copyright h4{
+ font-size: small;
+ padding-left: 30px;
+ color: white;
+ font-weight: 400;
+}
